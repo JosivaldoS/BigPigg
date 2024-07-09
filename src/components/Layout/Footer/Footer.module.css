@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #464154;
+    color: white;
+}
+
+footer > p{
+    margin: 8px;
+    font-family: "Montserrat", "sans-serif";
+}
+
+.navigationSocial{
+    font-size: 26px;
+    padding: 3px 0px;
+}
+
+
