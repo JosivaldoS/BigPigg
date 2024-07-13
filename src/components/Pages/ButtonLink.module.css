@@ -1,0 +1,13 @@
+.botao{
+    background-color: #464154;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    width: 127px;
+
+    transition: all 0.5s;
+}
+
+.botao:hover{
+    color: #FFF15C;
+}

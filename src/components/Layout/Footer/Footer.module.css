@@ -15,8 +15,21 @@ footer > p{
 }
 
 .navigationSocial{
+    height: 35px;
     font-size: 26px;
     padding: 3px 0px;
 }
 
+.navigationSocial > a{
+    position: relative;
+    padding: 5px;
+    color: white;
 
+    transition: all 0.4s;
+    opacity: 0.5px;
+}
+
+.navigationSocial > a:hover{
+    opacity: 1px;
+    color: #FFF15C;
+}

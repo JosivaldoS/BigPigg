@@ -6,9 +6,24 @@ export default function Footer(){
         <footer>
             <p>Site desenvolvido por Junior</p>
             <nav className={styles.navigationSocial}>
-                <AiFillLinkedin />
-                <AiFillGithub />
-                <AiFillInstagram />
+                <a 
+                    href="https://www.linkedin.com/in/josivaldo-junior/" 
+                    target="__blank"
+                >
+                    <AiFillLinkedin /> 
+                </a>
+                <a
+                    href="https://github.com/JosivaldoS"
+                    target="__blank"
+                >
+                    <AiFillGithub />
+                </a>
+                <a
+                    href="https://www.instagram.com/devjunin/"
+                    target="__blank"
+                >
+                    <AiFillInstagram />
+                </a>
             </nav>
         </footer>
     )

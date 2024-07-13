@@ -15,6 +15,9 @@ export default function Header(){
                         <Link to="/" className={styles.Links}>Home</Link>
                     </li>
                     <li>
+                        <Link to="/projects" className={styles.Links}>Projects</Link>
+                    </li>
+                    <li>
                         <Link to="/empresa" className={styles.Links}>Company</Link>
                     </li>
                     <li>
