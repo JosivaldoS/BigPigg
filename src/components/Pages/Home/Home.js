@@ -8,7 +8,6 @@ export default function Home(){
             <h1>Bem-vindo ao <span>BigPiggs</span></h1>
             <p>Comece a gerenciar seus projetos agora mesmo!</p>
             <ButtonLink to={"/newproject"} text={"Novo projeto"} />
-            <a href="/">Novo projeto</a>
             <img 
                 src={Piggy} 
                 alt="Mulher encostada em um porco de guardar dinheiro"

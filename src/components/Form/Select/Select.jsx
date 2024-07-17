@@ -1,0 +1,10 @@
+import styles from "./Select.module.css"
+
+export default function Select({text, name, option, handleOnChange, value}){
+    return(
+        <div className={styles.form}>
+            <label htmlFor={name}>{text}</label>
+            <select name={name} id={name}></select>
+        </div>
+    )
+}

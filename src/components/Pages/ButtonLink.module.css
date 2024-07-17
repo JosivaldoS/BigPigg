@@ -4,6 +4,7 @@
     color: white;
     text-align: center;
     width: 127px;
+    border-radius: 2px;
 
     transition: all 0.5s;
 }
