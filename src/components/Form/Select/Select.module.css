@@ -12,12 +12,12 @@
     margin-right: 95px;
 }
 
-.form input{
+.form select{
     padding: 10px;
     border-radius: 2px;
     border: none;
 }
 
-.form input::placeholder{
+.form select::placeholder{
     color: rgb(194, 194, 194)
 }

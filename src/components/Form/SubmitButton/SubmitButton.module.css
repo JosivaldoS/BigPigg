@@ -1,0 +1,18 @@
+.div{
+    display: flex;
+    justify-content: center;
+    margin-top: 0.8em;
+}
+
+.btn{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    padding: 0.7em 1.5em;
+    border: none;
+    transition: all 0.5s;
+}
+
+.btn:hover {
+    color: #FFF15C;
+}

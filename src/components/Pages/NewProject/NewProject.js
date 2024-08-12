@@ -6,7 +6,7 @@ export default function NewProject(){
         <div className={styles.meuFormulario}>
             <h1>Novo projeto</h1>
             <p>Crie aqui o seu novo projeto</p>
-            <ProjectForm />
+            <ProjectForm btnTxt={"Criar projeto"}/>
         </div>
     )
 }
